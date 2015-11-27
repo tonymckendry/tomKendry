@@ -21,6 +21,40 @@ nav{
   height: 10vh;
   background-color: red;
   z-index: 9999;
+  padding: 5px;
+}
+
+#navigation {
+  margin:5px;
+  padding: 5;
+  list-style: none;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  padding-left: 10%;
+  margin-right: 5%;
+}
+
+#navigation li {
+  display: inline;
+  margin: 0;
+  padding-left: 10px;;
+}
+
+#logo{
+  list-style: none;
+
+}
+
+#logo li {
+  display: inline;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -.75rem;
+  mix-blend-mode: multiply;
+  color: lightblue;
+  text-shadow: 3px 3px 5px rgba(0,0,0,.2);
 }
 
 main{
@@ -37,4 +71,10 @@ main{
 
 h1{
   text-align: center;
+}
+
+footer {
+  clear: both;
+  background-color: green;
+
 }
