@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+  margin-top: 10vh;
+  /*position: relative;*/
+}
+
+.container{
+  margin: 0 auto;
+  width: 99vw;
+  height: 99vh;
+  background-color: lightgray;
+  box-sizing: border-box;
+  position: relative;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: red;
+  z-index: 9999;
+}
+
+main{
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 99vw;
+  height: 89vh;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  /*margin-top: 5%;*/
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  background-color: white;
+}
+
+h1{
+  text-align: center;
+}
