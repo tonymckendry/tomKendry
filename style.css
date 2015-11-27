@@ -1,7 +1,7 @@
 body{
   font-family: sans-serif;
   margin-top: 10vh;
-  /*position: relative;*/
+  background-color: lightgray;
 }
 
 .container{
@@ -14,32 +14,45 @@ body{
 }
 
 nav{
+  margin: 0 auto;
+  background-color: skyblue;
+  height: 90px;
+  width: 99vw;
+  /*margin-top: 1%;*/
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 10vh;
-  background-color: red;
-  z-index: 9999;
-  padding: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
+  padding: 10px;
 }
 
 #navigation {
-  margin:5px;
-  padding: 5;
+  /*margin:15px;*/
+
   list-style: none;
   position: absolute;
   text-align: center;
   bottom: 0;
   right: 0;
+  font-size: 2em;
   padding-left: 10%;
   margin-right: 5%;
+   text-shadow: 1px 1px 3px rgba(0,0,0,.1);
 }
 
 #navigation li {
   display: inline;
   margin: 0;
-  padding-left: 10px;;
+  padding-left: 30px;
+  mix-blend-mode: multiply;
+  background-blend-mode: multiply;
+  font-weight: 700;
+  letter-spacing: -.34rem;
+  color: lightblue;
+}
+
+#navigation li:hover {
+color: rgba(0,0,0,.5)
 }
 
 #logo{
@@ -57,24 +70,11 @@ nav{
   text-shadow: 3px 3px 5px rgba(0,0,0,.2);
 }
 
-main{
-  padding-top: 5%;
-  margin: 0 auto;
-  width: 99vw;
-  height: 89vh;
-  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
-  /*margin-top: 5%;*/
-  border: 2px solid rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;
-  background-color: white;
+#logo li:hover {
+  color: rgba(0,0,0,.5)
 }
+
 
 h1{
   text-align: center;
-}
-
-footer {
-  clear: both;
-  background-color: green;
-
 }
