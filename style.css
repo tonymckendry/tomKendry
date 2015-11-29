@@ -15,15 +15,16 @@ body{
 
 nav{
   margin: 0 auto;
-  background-color: skyblue;
+  background-image: linear-gradient(to right, pink, lightblue);
   height: 90px;
-  width: 99vw;
-  /*margin-top: 1%;*/
+  width: 95vw;
+  margin-top: 10px;
   position: fixed;
   top: 0;
   left: 0;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, .2);
   padding: 10px;
+  z-index: 9999;
 }
 
 #navigation {
@@ -48,11 +49,18 @@ nav{
   background-blend-mode: multiply;
   font-weight: 700;
   letter-spacing: -.34rem;
-  color: lightblue;
+  color: gray;
+  border-bottom: 3px solid transparent;
+  width: 0px;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 25px;
+  text-align: center;
 }
 
 #navigation li:hover {
-color: rgba(0,0,0,.5)
+color: rgba(0,0,0,.9);
+border-bottom: 3px solid gray;
 }
 
 #logo{
@@ -66,15 +74,21 @@ color: rgba(0,0,0,.5)
   font-weight: 700;
   letter-spacing: -.75rem;
   mix-blend-mode: multiply;
-  color: lightblue;
+  color: gray;
   text-shadow: 3px 3px 5px rgba(0,0,0,.2);
 }
 
 #logo li:hover {
-  color: rgba(0,0,0,.5)
+  color: rgba(0,0,0,.9)
 }
 
 
 h1{
   text-align: center;
 }
+
+main {
+  margin: 0 auto;
+  width: 90%;
+margin-top: 125px;
+background-color: #dcdcdc}
